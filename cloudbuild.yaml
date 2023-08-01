@@ -7,7 +7,7 @@ steps:
   - --gen2
   - --runtime=python310
   - --region=asia-south1
-  - --source=./Document-processing-function
+  - --source=Document-processing-function
   - --entry-point=hello_gcs
   - --trigger-event=google.storage.object.finalize
   - --trigger-resource=icici-kyc-source-docs-a11deef31d
